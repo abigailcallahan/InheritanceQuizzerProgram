@@ -203,12 +203,54 @@ public class InheritanceQuizzerProgram
 		
 		public static void quiz7()
 			{
+				System.out.println("7) If the Code runs...\n");
+				System.out.println("Food x = new Food()");
+				System.out.println("x.cook()\n");
 				
+				System.out.println("What will the result be?");
+				System.out.println("1) Yum This food is so good");
+				System.out.println("2) The pasta tastes so good");
+				System.out.println("3) These groceries are so expensive");
+				System.out.println("4) It takes about 15 minutes to cook pasta");
+				System.out.println("5) error");
+				
+				answer1 = input.nextInt();
+				if(answer1 == 5)
+					{
+						System.out.println("That is correct! +1 point\n\n");
+						counter++;
+					}
+				else
+					{
+						System.out.println("That is incorrect! -1 point");
+						System.out.println("The correct answer is 5.\n\n");
+					}
 			}
 		
 		public static void quiz8()
 			{
+				System.out.println("8) If the Code runs...\n");
+				System.out.println("Pasta x = new Food()");
+				System.out.println("x.eat()\n");
+				                                                                            
+				System.out.println("What will the result be?");
+				System.out.println("1) Yum This food is so good");
+				System.out.println("2) The pasta tastes so good");
+				System.out.println("3) These groceries are so expensive");
+				System.out.println("4) It takes about 15 minutes to cook pasta");
+				System.out.println("5) error");
 				
+				answer1 = input.nextInt();
+				if(answer1 == 5)
+					{
+						System.out.println("That is correct! +1 point\n\n");
+						counter++;
+					}
+				else
+					{
+						System.out.println("That is incorrect! -1 point");
+						System.out.println("The correct answer is 5.\n\n");
+					}
 			}
 		
 		public static void quiz9()
@@ -230,5 +272,10 @@ public class InheritanceQuizzerProgram
 			{
 				
 			}
+		
+		public static void wrapUp()
+		{
+			
+		}
 
 	}
